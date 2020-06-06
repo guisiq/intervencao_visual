@@ -1,0 +1,51 @@
+        html {
+            border: 0px;
+            margin: 0px;
+        }
+        body{
+            margin: 0;
+        }
+        .linha {
+            width: 100%;
+            display: flex;
+            /* flex-wrap: wrap; */
+            padding: 0 4px;
+            flex-direction: row;
+            justify-content: space-around;
+            /* justify-content: center; */
+        }
+
+        /* Create four equal columns that sits next to each other */
+        .coluna {
+            flex: 30%; 
+            /* max-width: 40%;  */
+            padding: 0 4px;
+            /* vertical-align: middle; */
+        }
+
+        .coluna .card {
+            border-radius: 30px;
+            margin-top: 10px;
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 30px;
+        }
+ 
+        /* Responsive layout - makes a two coluna-layout instead of four colunas */
+        /* @media screen and (max-width: 800px) {
+            .coluna {
+                flex: 50%;
+                max-width: 50%;
+            }
+        } */
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        /* @media screen and (max-width: 600px) {
+            .column {
+                flex: 100%;
+                max-width: 100%;
+            }
+        } 

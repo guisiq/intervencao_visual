@@ -1,0 +1,11 @@
+#bara de navegacao responsiva
+    https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+    https://getbootstrap.com/docs/4.5/components/navbar/
+#carocel
+    https://getbootstrap.com/docs/4.5/components/carousel/
+#indices
+    https://getbootstrap.com/docs/4.5/components/breadcrumb/
+#paginacao
+    https://getbootstrap.com/docs/4.5/components/pagination/
+#barra de navegacao
+    https://getbootstrap.com/docs/4.5/components/scrollspy/
