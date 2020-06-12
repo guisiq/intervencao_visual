@@ -22,7 +22,43 @@ pedro           10
 //                           [2][numero do quadro][0]numero do projeto que o quadro foi desenvouvido
 //                           [2][numero do quadro][1]link para a imagen do quadro 
 let quadros = [
-
+    {
+        link: 'img/quadros/anta.jpeg',
+        artista: 5,
+        nome:'anta',
+        exepoxicao: 0,
+        largura:1
+    },
+    {
+        link: `img\quadros\arara1.jpeg`,
+        artista: 8,
+        nome: '',
+        exepoxicao: 0,
+    },
+    {
+        link: `img\quadros\capivara.jpeg`,
+        artista: 5,
+        nome: '',
+        exepoxicao: 0,
+    },
+    {
+        link: ``,
+        artista: 0,
+        nome: '',
+        exepoxicao: 0,
+    },
+    {
+        link: ``,
+        artista: 0,
+        nome: '',
+        exepoxicao: 0,
+    },
+    {
+        link: ``,
+        artista: 0,
+        nome: '',
+        exepoxicao: 0,
+    }
 ]
 let artistas = [
     {
@@ -40,38 +76,54 @@ let artistas = [
         apelido: [false],
         quadros: [[1, "img/quadros/capivara.jpeg"]]//procura a imagem do lobo guara
     },
-    [`Davi`, [false],
-        [[0]]
-    ],
-    [`Fernada`, [false],
-        [
-            [1,"img/quadros/jabuti.jpeg"],
-            [1,"img/quadros/tucunare.jpeg"]
-        ]
-    ],
-    [`Guilherme`, [false, ],
-        [
+    {
+        nome:`Davi`,
+        apelido:[false],
+        quadros:[[0]]
+    },
+    {
+        nome: `Fernada`,
+        apelido:[false],
+        quadros:[
+                    [1,"img/quadros/jabuti.jpeg"],
+                    [1,"img/quadros/tucunare.jpeg"]
+                ]
+    },
+    {
+        nome: `Guilherme`,
+        apelido: [false],
+        quadros:[
             [1, "img/quadros/soldadinho.jpeg"],
             [1, "img/quadros/anta.jpeg"]
         ]
-    ],
-    [`Joao`, [true, "apelido"],//proucurar a imagem do quadro 
-        [[0]]
-    ],
-    [`lucas`, [true, "aragoto"],
-        [[1,"img/quadros/pirarucu.jpeg"]] //proucuar a imagem do tatu 
-    ],
-    [`Maria Eduarda`, [true, "Maryel"],
-        [[1,"img/quadros/arara1.jpeg"]] //procuara a segunda arara 
-    ],
-    [`Miguel`, [true, "lobilho"],// procurar o passaro 
-        [
-            [1,"img/quadros/ariranha.jpeg"],
-            [1,"img/quadros/macacoPrego.jpeg"]
+    },
+    {
+        nome: `Joao`,
+        apelido: [true, "apelido"],//proucurar a imagem do quadro 
+        quadros: [[0]]
+    },
+    {
+        nome:`lucas`,
+        apelido: [true, "aragoto"],
+        quadros:[[1,"img/quadros/pirarucu.jpeg"]] //proucuar a imagem do tatu 
+    },
+    {
+        nome: `Maria Eduarda`,
+        apelido:[true, "Maryel"],
+        quadros:[[1,"img/quadros/arara1.jpeg"]] //procuara a segunda arara 
+    },
+    {
+        nome: `Miguel`,
+        apelidos: [true, "lobilho"],// procurar o passaro 
+        quadros: [
+            [1, "img/quadros/ariranha.jpeg"],
+            [1, "img/quadros/macacoPrego.jpeg"]
         ]
-    ],
-    [`Pedro`, [false],//procurar imagem do viado
-        [[0]]
-    ],
+    },
+    {
+        nome:`Pedro`,
+        apelidos:[false],//procurar imagem do viado
+        quadros:[[0]]
+    },
 ];
 //#endregion
