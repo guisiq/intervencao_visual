@@ -22,108 +22,169 @@ pedro           10
 //                           [2][numero do quadro][0]numero do projeto que o quadro foi desenvouvido
 //                           [2][numero do quadro][1]link para a imagen do quadro 
 let quadros = [
+    
     {
         link: 'img/quadros/anta.jpeg',
         artista: 5,
-        nome:'anta',
+        nome: 'anta',
         exepoxicao: 0,
-        largura:1
+        exibir : true
     },
     {
-        link: `img\quadros\arara1.jpeg`,
+        link: `img/quadros/arara1.jpeg`,
         artista: 8,
-        nome: '',
+        nome: 'arara Azul',
         exepoxicao: 0,
+        exibir : true
     },
     {
-        link: `img\quadros\capivara.jpeg`,
+        link: `img/quadros/capivara.jpeg`,
+        artista: 2,
+        nome: 'capivara ',
+        exepoxicao: 0,
+        exibir : true
+    },
+    {
+        link: `img/quadros/ariranha.jpeg`,
+        artista: 9,
+        nome: 'ariranha',
+        exepoxicao: 0,
+        exibir : true
+    },
+    {
+        link: `img/quadros/jabuti.jpeg`,
+        artista: 4,
+        nome: 'jabuti',
+        exepoxicao: 0,
+        exibir : true
+    },
+    {
+        link: `img/quadros/macacoPrego.jpeg`,
+        artista: 9,
+        nome: 'macaco prego',
+        exepoxicao: 0,
+        exibir : true
+    },
+    {
+        link: `img/quadros/pererecaDocerrado.jpeg`,
+        artista: 1,
+        nome: 'perereca do cerrado ',
+        exepoxicao: 0,
+        exibir : true
+    },
+    {
+        link: `img/quadros/pirarucu.jpeg`,
+        artista: 7,
+        nome: 'pirarucu',
+        exepoxicao: 0,
+        exibir : true
+    },
+    {
+        link: `img/quadros/seriema.jpeg`,
+        artista: 0,
+        nome: 'seriema',
+        exepoxicao: 0,
+        exibir : true
+    },
+    {
+        link: `img/quadros/soldadinho.jpeg`,
         artista: 5,
-        nome: '',
+        nome: 'soldadinho',
         exepoxicao: 0,
+        exibir : true
     },
     {
-        link: ``,
-        artista: 0,
-        nome: '',
+        link: `img/quadros/tucunare.jpeg`,
+        artista: 4,
+        nome: 'tucunare',
         exepoxicao: 0,
-    },
-    {
-        link: ``,
-        artista: 0,
-        nome: '',
-        exepoxicao: 0,
-    },
-    {
-        link: ``,
-        artista: 0,
-        nome: '',
-        exepoxicao: 0,
+        exibir : true
     }
-]
+    /*,
+    {
+        link: ``,
+        artista: 0,
+        nome: '',
+        exepoxicao: 0,
+        exibir : true
+    },*/
+];
+
 let artistas = [
     {
         nome: `amanda tales`,
         apelido:[false],
-        quadros: [[1, `img/quadros/seriema.jpeg`]]//procurar imagem da largata 
+        aultoRetrato:"",
+        // quadros: [[1, `img/quadros/seriema.jpeg`]]//procurar imagem da largata 
     }, 
     {
         nome: `ana Leticia`,
         apelido: [true, "Bob"],
-        quadros: [[1, "img/quadros/pererecaDocerrado.jpeg"]]//procurar a imagem da  borboleta
+        aultoRetrato:"",
+        // quadros: [[1, "img/quadros/pererecaDocerrado.jpeg"]]//procurar a imagem da  borboleta
     },
     {
         nome: `Athus`,
         apelido: [false],
-        quadros: [[1, "img/quadros/capivara.jpeg"]]//procura a imagem do lobo guara
+        aultoRetrato:"",
+        // quadros: [[1, "img/quadros/capivara.jpeg"]]//procura a imagem do lobo guara
     },
     {
         nome:`Davi`,
-        apelido:[false],
-        quadros:[[0]]
+        apelido: [false],
+        aultoRetrato:"",
+        // quadros:[[0]]
     },
     {
         nome: `Fernada`,
-        apelido:[false],
-        quadros:[
-                    [1,"img/quadros/jabuti.jpeg"],
-                    [1,"img/quadros/tucunare.jpeg"]
-                ]
+        apelido: [false],
+        aultoRetrato:"",
+        // quadros:[
+        //             [1,"img/quadros/jabuti.jpeg"],
+        //             [1,"img/quadros/tucunare.jpeg"]
+        //         ]
     },
     {
         nome: `Guilherme`,
         apelido: [false],
-        quadros:[
-            [1, "img/quadros/soldadinho.jpeg"],
-            [1, "img/quadros/anta.jpeg"]
-        ]
+        aultoRetrato:"",
+        // quadros:[
+        //     [1, "img/quadros/soldadinho.jpeg"],
+        //     [1, "img/quadros/anta.jpeg"]
+        // ]
     },
     {
         nome: `Joao`,
-        apelido: [true, "apelido"],//proucurar a imagem do quadro 
-        quadros: [[0]]
+        apelido: [true, "apelido"],//proucurar a imagem do quadro
+        aultoRetrato:"",
+        // quadros: [[0]]
     },
     {
         nome:`lucas`,
         apelido: [true, "aragoto"],
-        quadros:[[1,"img/quadros/pirarucu.jpeg"]] //proucuar a imagem do tatu 
+        aultoRetrato:"",
+        // quadros:[[1,"img/quadros/pirarucu.jpeg"]] //proucuar a imagem do tatu 
     },
     {
         nome: `Maria Eduarda`,
-        apelido:[true, "Maryel"],
-        quadros:[[1,"img/quadros/arara1.jpeg"]] //procuara a segunda arara 
+        apelido: [true, "Maryel"],
+        aultoRetrato:"",
+        // quadros:[[1,"img/quadros/arara1.jpeg"]] //procuara a segunda arara 
     },
     {
         nome: `Miguel`,
         apelidos: [true, "lobilho"],// procurar o passaro 
-        quadros: [
-            [1, "img/quadros/ariranha.jpeg"],
-            [1, "img/quadros/macacoPrego.jpeg"]
-        ]
+        aultoRetrato:"",
+        // quadros: [
+        //     [1, "img/quadros/ariranha.jpeg"],
+        //     [1, "img/quadros/macacoPrego.jpeg"]
+        // ]
     },
     {
         nome:`Pedro`,
-        apelidos:[false],//procurar imagem do viado
-        quadros:[[0]]
+        apelidos: [false],//procurar imagem do viado
+        aultoRetrato:"",
+        //quadros:[[0]]
     },
 ];
 //#endregion
