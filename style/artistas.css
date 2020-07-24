@@ -1,4 +1,10 @@
+html{
+  margin: 0;
+
+}
 .row {
+
+  margin: 0 0 0 0;
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
